@@ -1,0 +1,52 @@
+* { 
+    box-sizing: border-box;
+   
+}
+
+:root {
+
+    --color-primario: #BFFFBC;
+    --color-secundario: #A8AEC1;
+    --color-texto: #333;
+
+    /*para que todos los elementos dentro de mi html 
+puedan re/utilizarlos*/
+
+
+}
+
+body {
+
+background-color:var(--color-secundario);
+color: var(--color-texto);
+
+}
+
+.tarjeta {
+
+width: var(--valor-base-width);
+height: calc(var(--valor-base-width) * 2px);
+padding: var(--valor-margin);
+margin: calc(var(--valor-margin) / 2px);
+background-color: var(--color-primario);
+
+
+
+}
+
+.encabezado {
+
+  background-color:var(--color-secundario);  
+  width: calc(var(--valor-base-width) / 2px);
+  padding:2.5px;
+}
+
+.contenido {
+
+ background-color: white;  
+ width: 80%;
+margin: auto;
+padding: calc(10px /2px)
+
+    
+}
