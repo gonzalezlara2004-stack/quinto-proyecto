@@ -32,6 +32,7 @@ height: calc(var(--valor-base-width) * 2px);
 padding: var(--valor-margin);
 margin: calc(var(--valor-margin) / 2px);
 background-color: var(--color-primario);
+border-radius:50%;
 
 
 
@@ -49,6 +50,6 @@ background-color: var(--color-primario);
  background-color: rgba(calc(var(--canal1) - 100), var(--canal1), var(--canal1), var(--transparencia));  
  width: 80%;
 margin: auto;
-padding: calc(10px /2px);
+padding: calc(var(--valor-margin) / 2px);
 
 }
