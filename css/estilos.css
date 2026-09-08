@@ -8,7 +8,10 @@
     --color-primario: #BFFFBC;
     --color-secundario: #A8AEC1;
     --color-texto: #333;
-
+    --valor-margin:10px;
+    --valor-base-width: 600px;
+    --canal1: 255;
+    --transparencia: 0.5;
     /*para que todos los elementos dentro de mi html 
 puedan re/utilizarlos*/
 
@@ -43,10 +46,9 @@ background-color: var(--color-primario);
 
 .contenido {
 
- background-color: white;  
+ background-color: rgba(calc(var(--canal1) - 100), var(--canal1), var(--canal1), var(--transparencia));  
  width: 80%;
 margin: auto;
-padding: calc(10px /2px)
+padding: calc(10px /2px);
 
-    
 }
