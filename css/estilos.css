@@ -25,14 +25,30 @@ color: var(--color-texto);
 
 }
 
+h1 {
+
+background-color: var(--color-primario);
+width: var(--valor-base-width);
+padding: 10px 2px 3px 100px;
+margin: 10px; 
+}
+
 .tarjeta {
 
 width: var(--valor-base-width);
 height: calc(var(--valor-base-width) * 2px);
-padding: var(--valor-margin);
+padding:calc(var(--valor-margin) * 2   );
 margin: calc(var(--valor-margin) / 2px);
 background-color: var(--color-primario);
-border-radius:50%;
+border-radius:10px 100px 50% 2px;
+/*
+
+border-top-left-radius: 10px;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 50%;
+border-bottom-left-radius: 2px;
+
+*/
 
 
 
@@ -41,8 +57,12 @@ border-radius:50%;
 .encabezado {
 
   background-color:var(--color-secundario);  
-  width: calc(var(--valor-base-width) / 2px);
+  width: calc(var(--valor-base-width) / 3px);
   padding:2.5px;
+  border-radius: var(--valor-margin) 20px 50% 70% / 30px 50% 2px 20%;
+
+
+
 }
 
 .contenido {
